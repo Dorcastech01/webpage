@@ -1,0 +1,274 @@
+.navigation {
+    height: 80px;
+    width: auto;
+    display: flex;
+    align-items: center;
+    margin: 10px 40px; 
+    justify-content: space-between;
+}
+
+.logo {
+    display: flex;
+    height: 80px;
+    align-items: center;
+}
+
+.logo img {
+    width: 90px; 
+    height: auto;  
+}
+
+.logo h1 {
+    font-size: 24px;
+    margin-left: -20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+
+}
+
+.nav_items {
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+    justify-content: space-between;
+    gap: 24px;
+    display: flex;
+}
+
+.nav_items a {
+    text-decoration: none;
+    color: #324d93ff;
+    cursor: pointer;
+}
+
+.first {
+    width: 781px;
+    height: 500px;
+    display: flex;
+    justify-content: space-between;
+    gap: 24px;
+    margin-bottom: 20px;
+}
+
+.first .hero_page {
+    height:300px;
+    padding-left: 40px;
+}
+
+.hero_page header {
+    padding-top: 100px;
+    width: 500px;
+    font-size: 32px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.hero_page p {
+    width: 500px;
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 16px;
+    line-height: 24px;
+}
+
+.hero_page button {
+    font-size: 16px;
+    margin-top: 16px;
+    background-color: #324d93ff;
+    color: white;
+    padding: 5px 20px;
+    height: 40px;
+    width: 200px;
+    text-align: center;
+    border-radius: 4px;
+    border: 0px;
+    cursor: pointer;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.hero_image img {
+    width: 600px;
+    height: 400px;
+    margin-left: -40px;
+}
+
+.section_2 {
+    background-color: #EDF3FF;
+    height: 500px;
+
+}
+
+.second {
+    display: flex;
+    padding: 0px 40px;
+    width: 781px;
+    justify-content: space-between;
+    gap: 40px;
+}
+
+.second div {
+    width: 500px;
+    height: 180px;
+    border-radius: 4px;
+    margin-bottom: 100px;
+}
+
+#left {
+    margin-top: -20px;
+    background: #324d93ff;
+    display: flex;
+}
+
+
+#icon {
+    width: 40px;
+    height: 40px;
+    border-radius: 400px;
+    background-color: white;
+    margin: 20px;
+    /* padding: 10px; */
+    align-content: center;
+}
+
+#icon i {
+    width: 80px;
+    height: 80px;
+    color: #324d93ff;
+    margin: 12px;
+}
+
+#message {
+    margin: 8px;
+}
+
+#message h3 {
+    width: 300px;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    font-weight:bold;
+}
+
+#message p {
+    width: 350px;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    line-height: 24px;
+}
+
+#message a {
+    font-size: 12px;
+    text-decoration: none;
+    color: #EDF3FF;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+
+
+#about {
+    margin: 0px 40px;
+    width: auto;
+}
+
+#about h2 {
+    font-size: 24px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+    color: #324d93ff;
+}
+
+#about p {
+    font-size: 16px;
+    line-height: 24px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 32px;
+    color: #324d93ff;
+    font-weight: 580;
+}
+
+
+#questions {
+    margin: 40px 40px 120px;
+
+}
+
+#questions h2 {
+    margin-top: 100px;
+    text-align: center;
+}
+
+#questions .list  h3{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    font-weight: bold;
+    margin-top: 40px;
+    color: #324d93ff;
+}
+
+#questions .list  p {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    padding-left: 20px;
+    margin-top: -12px;
+}
+
+#contact {
+    height: 200px;
+    width: auto;
+    background-color:#EDF3FF;
+    padding-top: 60px;
+}
+
+#contact h2 {
+    text-align: center;
+    font-size: 24px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+    color: #324d93ff;
+}
+
+#contact button {
+    margin-left: 460px;
+    margin-top: 20px;
+    width: 200px;
+    height: 40px;
+    border: 0px;
+    border-radius: 4px;
+    color: white;
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 500;
+    background-color: #324d93ff;
+    cursor: pointer;
+}
+
+footer {
+    height: 100px;
+    margin: 40px;
+    color: #324d93ff;
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+#footer {
+    width: 300px;
+    justify-content: space-between;
+    gap: 60px;
+}
+
+.footer {
+    margin-left: 200px;
+}
+
+.last {
+    list-style-type: none;
+    cursor: pointer;
+    
+}
+
+.last li {
+    margin-top: 20px;
+    font-weight: 500;
+    font-family: Arial, Helvetica, sans-serif;
+}
