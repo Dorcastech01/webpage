@@ -20,3 +20,5 @@ function num_division(n) {
 }
 
 num_division(50)
+
+//fizzbuzz assignment
